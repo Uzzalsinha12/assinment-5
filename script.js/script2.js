@@ -50,8 +50,8 @@ let heartCount = 0;
       copyCount++;
       copyUpdate.textContent = copyCount;
     } else if (getClass(e, "heart")) {
-      loveCount++;
-      loveUpdate.textContent = loveCount;
+      heartCount++;
+      updateheart.textContent = heartCount;
     } else if (getClass(e, "call")) {
       const subTitle = card.querySelector(".sub-title").textContent;
       const title = card.querySelector(".title").textContent;
