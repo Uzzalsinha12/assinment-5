@@ -6,7 +6,7 @@ function createHistory(title,number,time){
     const div = document.createElement("div");
 
     div.innerHTML =`
-    <div class="shadow-lg rounded-lg flex items-center justify-between py-4 px-3 bg-white "> 
+    <div class=" rounded-lg flex items-center justify-between py-4 px-3 bg-white "> 
     <div class= "space-y-1">
         <p id="history-title">${title}</p>
         <p id="history-phone">${number}</p>
